@@ -48,11 +48,7 @@ nav .nav-right-section .menu-icon {
     height: 25px;
 }
 
-nav .nav-right-section .perfil-icon {
-    background-image: url(https://world-of-bike.de/fileadmin/world-of-bike/bilder/news/Iron1200_48Special.jpg);
-    /* background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain; */
+nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 10px;
 }
