@@ -1,8 +1,3 @@
-/*  * {
-    padding: 0;
-    margin: auto;
-} */
-
 body {
     margin: 0;
     padding: 0;
@@ -46,6 +41,7 @@ nav .nav-right-section .menu-icon {
     background-size: contain;
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 
 nav .nav-right-section img {
@@ -95,5 +91,70 @@ main .main-input input {
 }
 
 main .main-input .search-icon {
-    background-image: url(https://world-of-bike.de/fileadmin/world-of-bike/bilder/news/Iron1200_48Special.jpg./images/icons/search.svg);
+    background-image: url(https://www.svgrepo.com/show/7109/search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
 }
+main .main-input .micro-icon {
+    background-image: url(https://www.svgrepo.com/show/533111/microphone-alt-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+    vertical-align: middle;
+    pointer-events: visible;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #fbf9fa;
+    border: none;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 0 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Hover and active */
+main .main-buttons button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: #dadce0;
+    color: #20212447;
+}
+
+
+footer {
+    background: #dadce0;
+    width: 100%;
+    height: 5%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: grid;
+    align-items: center; 
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    main .main-buttons {
+        width: 100%; 
+    }
+    }
